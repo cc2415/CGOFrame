@@ -1,13 +1,13 @@
 {
-    "name": "cheng/cgo-frame",
+    "name": "cc2415/cgo-frame",
     "autoload": {
         "psr-4": {
-            "Cheng\\CgoFrame\\": "src/"
+            "cc2415\\CgoFrame\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "cheng",
+            "name": "cc2415",
             "email": "137842934@qq.com"
         }
     ],
