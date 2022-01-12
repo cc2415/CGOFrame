@@ -8,8 +8,6 @@ class AutoLoad
         $fileName = str_replace('\\','/', DIR.'\\..\\'. $className).'.php';
         if(is_file($fileName)){
             require $fileName;
-        }else{
-            echo '----'.$fileName .' is not exist';die;
         }
     }
 }

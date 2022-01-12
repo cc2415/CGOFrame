@@ -12,6 +12,7 @@ class Application
     {
         $this->path = $path;
         //自动加载
+        require_once __DIR__ . '/AutoLoad.php';
         spl_autoload_register(array('\\cgo\\AutoLoad', 'load'));
     }
 
