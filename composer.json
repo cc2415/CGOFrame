@@ -2,7 +2,7 @@
     "name": "cgo/cgo-frame",
     "autoload": {
         "psr-4": {
-            "cc2415\\CgoFrame\\": "src/"
+            "cgo\\CgoFrame\\": "cgo/"
         }
     },
     "authors": [
