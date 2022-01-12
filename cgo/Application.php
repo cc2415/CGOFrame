@@ -12,7 +12,7 @@ class Application
     {
         $this->path = $path;
         //自动加载
-        spl_autoload_register(array('\\AutoLoad', 'autoload'));
+        spl_autoload_register(array('\\cgo\\AutoLoad', 'load'));
     }
 
 
