@@ -1,5 +1,5 @@
 {
-    "name": "cc2415/cgo-frame",
+    "name": "cgo-frame",
     "autoload": {
         "psr-4": {
             "cc2415\\CgoFrame\\": "src/"
