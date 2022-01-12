@@ -1,5 +1,6 @@
 <?php
-namespace cgo;
+namespace cgo\CgoFrame;
+
 class Demo
 {
     public function one($text)

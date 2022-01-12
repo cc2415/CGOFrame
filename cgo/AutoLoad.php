@@ -1,5 +1,5 @@
 <?php
-namespace cgo;
+namespace cgo\CgoFrame;
 
 class AutoLoad
 {
